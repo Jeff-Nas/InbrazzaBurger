@@ -117,6 +117,134 @@
         "price": 22.50,
         "category": "hamburgers",
         "description": "Pão de brioche, Blend especial de carne de 150g, queijo\n mussarela, calabresa, molho barbecue.",
-        "image": "../assets/hamburgers/brazza-simplao.jpeg"
+        "image": "../assets/hamburgers/brazza-calabresa.jpeg"
+    },
+    {
+        "id": 16,
+        "nome": "Brazza Bacon",
+        "price": 24.00,
+        "category": "hamburgers",
+        "description": "Pão de brioche, Blend especial de carne de 150g, queijo Fatias de\n Bacon, queijo Cheddar e Creme de Cheddar.",
+        "image": "../assets/hamburgers/brazza-bacon.jpeg"
+    },
+    {
+        "id": 17,
+        "nome": "Brazza Onion",
+        "price": 26.50,
+        "category": "hamburgers",
+        "description": "Pão de brioche, Blend especial de carne de 150g, 2 fatias de\n queijo cheddar, 2 onion rings crocantes, fatias de bacon e molho\n barbecue",
+        "image": "../assets/hamburgers/brazza-onion.jpeg"
+    },
+    {
+        "id": 18,
+        "nome": "Brazza Duplo",
+        "price": 32.50,
+        "category": "hamburgers",
+        "description": "Pão brioche, 2 Blends especiais de carne de 150g, fatias de\n queijo cheddar e bacon em dobro",
+        "image": "../assets/hamburgers/brazza-duplo.jpeg"
+    },
+    {
+        "id": 19,
+        "nome": "Coca 250ml",
+        "price": 4.50,
+        "category": "bebidas",
+        "description": "Refrigerante Coca-Cola\n Pet 250ml",
+        "image": "../assets/bebidas/coca-250ml.jpeg"
+    },
+    {
+        "id": 20,
+        "nome": "Coca 350ml",
+        "price": 5.50,
+        "category": "bebidas",
+        "description": "Refrigerante Coca-Cola\n Lata de 350ml",
+        "image": "../assets/bebidas/coca-350ml.jpeg"
+    },
+    {
+        "id": 21,
+        "nome": "Coca 1L",
+        "price": 9.00,
+        "category": "bebidas",
+        "description": "Refrigerante Coca-Cola\n Pet 1L",
+        "image": "../assets/bebidas/coca-1l.jpeg"
+    },
+    {
+        "id": 22,
+        "nome": "Fanta Laranja 350ml",
+        "price": 5.50,
+        "category": "bebidas",
+        "description": "Fanta Laranja\n Lata 350ml",
+        "image": "../assets/bebidas/fanta-laranja-350ml.jpeg"
+    },
+    {
+        "id": 23,
+        "nome": "Guaraná Antártica 350ml",
+        "price": 5.50,
+        "category": "bebidas",
+        "description": "Refrigerante Guaraná\n Antártica Lata 350ml",
+        "image": "../assets/bebidas/guarana-350ml.jpeg"
+    },
+    {
+        "id": 24,
+        "nome": "Guaraná Antártica 1L",
+        "price": 8.50,
+        "category": "bebidas",
+        "description": "Refrigerante Guaraná\n Antártica Pet 1L",
+        "image": "../assets/bebidas/guarana-1l.jpeg"
+    },
+    {
+        "id": 25,
+        "nome": "Coca Zero 350ml",
+        "price": 6.00,
+        "category": "bebidas",
+        "description": "Refrigerante Coca-Cola\n Zero Açúcares\n Lata 350ml",
+        "image": "../assets/bebidas/coca-zero-350ml.jpeg"
+    },
+    {
+        "id": 26,
+        "nome": "São Geraldo 350ml",
+        "price": 6.00,
+        "category": "bebidas",
+        "description": "Refrigerante De Cajú\n Zero Açúcares\n Lata 350ml",
+        "image": "../assets/bebidas/caju-zero-350ml.jpeg"
+    },
+    {
+        "id": 27,
+        "nome": "Água Mineral 500ml",
+        "price": 3.00,
+        "category": "bebidas",
+        "scription": "Água Mineral\n Sem Gás\n Garrafa 500ml",
+        "image": "../assets/bebidas/agua-sg-500ml.png"
+    },
+    {
+        "id": 28,
+        "nome": "Smash Cheddar",
+        "price": 14.90,
+        "category": "hamburgers",
+        "description": "Pão brioche , carne artesanal esmagada na chapa,\n queijo e creme cheddar",
+        "image": "../assets/hamburgers/smash-chaddar.png"
+    },
+    {
+        "id": 29,
+        "nome": "Smash Duplo",
+        "price": 16.99,
+        "category": "hamburgers",
+        "description": "Pão brioche , duas carnes artesanais esmagadas na chapa,\n com queijo e creme cheddar",
+        "image": "../assets/hamburgers/smash-duplo.jpeg"
+    },
+    {
+        "id": 30,
+        "nome": "Combo Casal",
+        "price": 45.90,
+        "category": "combos",
+        "description": "Acompanha dois Burgers smash deliciosos de carne bovina/\n artesanal esmagada na chapa, bacon crocante, queijo cheddar\n Vigor, aquela cebola roxa chapeada, tudo isso no pão brioche do\n amor. Além disso, vão duas batatas fritas de 100g e dois refris\n coca-cola 250ml zero ou normal ao seu gosto.",
+        "image": "../assets/combos/combo-casal.jpeg"
+    },
+    {
+        "id": 30,
+        "nome": "Combo Casal",
+        "price": 45.90,
+        "category": "combos",
+        "description": "Acompanha dois Burgers smash deliciosos de carne bovina/\n artesanal esmagada na chapa, bacon crocante, queijo cheddar\n Vigor, aquela cebola roxa chapeada, tudo isso no pão brioche do\n amor. Além disso, vão duas batatas fritas de 100g e dois refris\n coca-cola 250ml zero ou normal ao seu gosto.",
+        "image": "../assets/combos/combo-casal.jpeg"
     }
 ]
