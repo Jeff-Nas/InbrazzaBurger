@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "nome": "Batata tradicional 300g",
+        "price": 17.00,
+        "category": "entradas",
+        "description": "Batata tradicional 300g",
+        "image": "../assets/entradas/batata-300.jpeg"
+    },
+    {
+        "id": 2,
+        "nome": "Batata tradicional 100g",
+        "price": 8.00,
+        "category": "entradas",
+        "description": "Batata tradicional 100g",
+        "image": "../assets/entradas/batata-100g.jpeg"
+    },
+    {
+        "id": 3,
+        "nome": "Batata Com cheddar e bacon 300g",
+        "price": 25.00,
+        "category": "entradas",
+        "description": "Batata Com cheddar e bacon 300g",
+        "image": "../assets/entradas/batata-bacon-300g.jpeg"
+    },
+    {
+        "id": 4,
+        "nome": "Anéis de cebola empanado 12 unidades",
+        "price": 15.90,
+        "category": "entradas",
+        "description": "Anéis de cebola empanado com 12 unidades",
+        "image": "../assets/entradas/aneis-de-cebola.png"
+    },
+    {
+        "id": 5,
+        "nome": "Combo Simplão 4.0",
+        "price": 65.00,
+        "category": "combos",
+        "description": "4 Brazzas simplão\n 300G Batata tradicional\n + Pespi 1 L (Normal ou zero.)",
+        "image": "../assets/combos/combo-simplao-4_0.png"
+    },
+    {
+        "id": 6,
+        "nome": "Combo Salada",
+        "price": 30.50,
+        "category": "combos",
+        "description": "1 Brazza Salada\n 100G Batata tradicional\n Refrigerante de 250ml coca ou coca zero.",
+        "image": "../assets/combos/combo-salada.jpeg"
+    },
+    {
+        "id": 7,
+        "nome": "Combo Pimenta",
+        "price": 28.00,
+        "category": "combos",
+        "description": "1 Brazza Pimenta\n 100 G Batata tradicional\n Refrigerante de 250ml coca ou coca zero.",
+        "image": "../assets/combos/combo-pimenta.jpeg"
+    },
+    {
+        "id": 8,
+        "nome": "Combo Calabresa",
+        "price": 31.50,
+        "category": "combos",
+        "description": "1 Brazza Calabresa\n 100 G Batata tradicional\n Refrigerante de 250ml coca ou coca zero.",
+        "image": "../assets/combos/combo-calabresa.jpeg"
+    },
+    {
+        "id": 9,
+        "nome": "Combo Bacon",
+        "price": 33.00,
+        "category": "combos",
+        "description": "1 Brazza Bacon\n 100 G Batata tradicional\n Refrigerante de 250ml coca ou coca zero.",
+        "image": "../assets/combos/combo-bacon.jpeg"
+    },
+    {
+        "id": 10,
+        "nome": "Combo Onion",
+        "price": 35.50,
+        "category": "combos",
+        "description": "1 Brazza Onion\n 100 G Batata tradicional\n Refrigerante de 250ml coca ou coca zero.",
+        "image": "../assets/combos/combo-onion.jpeg"
+    },
+    {
+        "id": 11,
+        "nome": "Combo Duplo",
+        "price": 41.50,
+        "category": "combos",
+        "description": "Combo Duplo\n 100 G Batata tradicional\n Refrigerante de 250ml coca ou coca zero.",
+        "image": "../assets/combos/cpmbo-duplo.jpeg"
+    },
+    {
+        "id": 12,
+        "nome": "Brazza Salada",
+        "price": 21.50,
+        "category": "hamburgers",
+        "description": "Pão Brioche, carne 150g, queijo mussarela, alface, cebola,\n tomate, picles, maionese e catchup.",
+        "image": "../assets/hamburgers/brazza-salad.jpeg"
+    },
+    {
+        "id": 13,
+        "nome": "Brazza Pimenta",
+        "price": 19.00,
+        "category": "hamburgers",
+        "description": "Pão Brioche, blend de carne 150g, queijo coalho e geleia de\n pimenta artesanal.",
+        "image": "../assets/hamburgers/brazza-pimenta.jpeg"
+    },
+    {
+        "id": 14,
+        "nome": "Brazza Simplão",
+        "price": 17.90,
+        "category": "hamburgers",
+        "description": "Pão brioche, carne 150g, queijo cheddar e creme cheddar.",
+        "image": "../assets/hamburgers/brazza-simplao.jpeg"
+    },
+    {
+        "id": 15,
+        "nome": "Brazza Calabreza",
+        "price": 22.50,
+        "category": "hamburgers",
+        "description": "Pão de brioche, Blend especial de carne de 150g, queijo\n mussarela, calabresa, molho barbecue.",
+        "image": "../assets/hamburgers/brazza-simplao.jpeg"
+    }
+]
