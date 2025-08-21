@@ -240,11 +240,135 @@
         "image": "../assets/combos/combo-casal.jpeg"
     },
     {
-        "id": 30,
-        "nome": "Combo Casal",
-        "price": 45.90,
+        "id": 31,
+        "nome": "Combo Alone",
+        "price": 25.90,
         "category": "combos",
-        "description": "Acompanha dois Burgers smash deliciosos de carne bovina/\n artesanal esmagada na chapa, bacon crocante, queijo cheddar\n Vigor, aquela cebola roxa chapeada, tudo isso no pão brioche do\n amor. Além disso, vão duas batatas fritas de 100g e dois refris\n coca-cola 250ml zero ou normal ao seu gosto.",
-        "image": "../assets/combos/combo-casal.jpeg"
+        "description": "Mate a sua fome nesse Burger smash delicioso de carne bovina\n artesanal esmagada na chapa, bacon crocante, queijo cheddar\n Vigor, aquela cebola roxa chapeada, tudo isso no pão brioche da\n felicidade acompanhado de batata frita de 100g e aquele refri\n coca-cola 250ml geladinha zero ou normal ao seu gosto.",
+        "image": "../assets/combos/combo-alone.jpeg"
+    },
+    {
+        "id": 32,
+        "nome": "Tomate",
+        "price": 1.00,
+        "category": "adicionais",
+        "image": "../assets/adicionais/tomate.jpeg"
+    },
+    {
+        "id": 33,
+        "nome": "Cebola",
+        "price": 1.00,
+        "category": "adicionais",
+        "image": "../assets/adicionais/cebola.jpeg"
+    },
+    {
+        "id": 34,
+        "nome": "Alface",
+        "price": 1.00,
+        "category": "adicionais",
+        "image": "../assets/adicionais/alface.jpeg"
+    },
+    {
+        "id": 35,
+        "nome": "Picles",
+        "price": 1.00,
+        "category": "adicionais",
+        "image": "../assets/adicionais/picles.jpeg"
+    },
+    {
+        "id": 36,
+        "nome": "Bacon",
+        "price": 4.50,
+        "category": "adicionais",
+        "image": "../assets/adicionais/bacon.jpeg"
+    },
+    {
+        "id": 37,
+        "nome": "Calabresa",
+        "price": 4.00,
+        "category": "adicionais",
+        "image": "../assets/adicionais/calabresa.jpeg"
+    },
+    {
+        "id": 38,
+        "nome": "Queijo Cheddar",
+        "price": 4.00,
+        "category": "adicionais",
+        "image": "../assets/adicionais/queijo-cheddar.jpeg"
+    },
+    {
+        "id": 39,
+        "nome": "Queijo Coalho",
+        "price": 4.00,
+        "category": "adicionais",
+        "image": "../assets/adicionais/coalho.jpeg"
+    },
+    {
+        "id": 40,
+        "nome": "Queijo Mussarela",
+        "price": 4.00,
+        "category": "adicionais",
+        "image": "../assets/adicionais/mussarela.jpeg"
+    },
+    {
+        "id": 41,
+        "nome": "Barbercue",
+        "price": 2.50,
+        "category": "adicionais",
+        "image": "../assets/adicionais/barbecue.jpeg"
+    },
+    {
+        "id": 42,
+        "nome": "Molho cheddar",
+        "price": 4.00,
+        "category": "adicionais",
+        "image": "../assets/adicionais/molho-cheddar.jpeg"
+    },
+    {
+        "id": 43,
+        "nome": "Geleia de Pimenta",
+        "price": 4.50,
+        "category": "adicionais",
+        "image": "../assets/adicionais/geleia-pimenta.jpeg"
+    },
+    {
+        "id": 44,
+        "nome": "Doritos",
+        "price": 3.50,
+        "category": "adicionais",
+        "image": "../assets/adicionais/doritos.jpeg"
+    },
+    {
+        "id": 45,
+        "nome": "Pão Integral Plus Vita 30%",
+        "price": 3.50,
+        "category": "adicionais",
+        "image": "../assets/adicionais/pao-integral.jpeg"
+    },
+    {
+        "id": 46,
+        "nome": "Carne Esmagada",
+        "price": 4.50,
+        "category": "adicionais",
+        "image": "../assets/adicionais/carne-esmagada.jpeg"
+    },
+    {
+        "id": 47,
+        "nome": "Carne Bovina",
+        "price": 8.00,
+        "category": "adicionais",
+        "image": "../assets/adicionais/carne-bov.jpeg"
+    },
+    {
+        "id": 48,
+        "nome": "Sachê Maionese",
+        "category": "molhos",
+        "image": "../assets/adicionais/maionese.jpeg"
+    },
+    {
+        "id": 49,
+        "nome": "Sachê Ketchup",
+        "category": "molhos",
+        "image": "../assets/adicionais/ketchup.jpeg"
     }
 ]
