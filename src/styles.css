@@ -1,5 +1,10 @@
-@import "tailwindcss"
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
 
 @theme {
-    --my-color: #fcfcfc;
+    --color-mint-500: oklch(0.72 0.11 178);
+
+    /* fonts*/
+    --font-oswald: "Oswald", sans-serif;
+    --font-montserrat: font-family: "Montserrat", sans-serif;
 }

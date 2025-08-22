@@ -12,9 +12,11 @@ export function Header() {
                     alt="Banner da página inicial" />
             </div>
             <div>
-                <div>
-                    <img src={logo} alt="" />
-                    <p>Inbrazza Burger</p>
+                <div className="flex items-center">
+                    <img
+                        className="w-14 drop-shadow-sm drop-shadow-red-500 grayscale-25"
+                        src={logo} alt="Logo Inbrazza" />
+                    <h1 className="font-oswald font-bold text-lg ">Inbrazza Burger</h1>
                 </div>
             </div>
 
