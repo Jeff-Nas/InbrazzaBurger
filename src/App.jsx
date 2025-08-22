@@ -1,13 +1,14 @@
 import { Routes, Route } from 'react-router-dom'
 
 import './styles.css'
+import Home from './pages/Home'
 
 function App() {
 
   return (
-    <main className='min-h-[80vh] p-4'>
+    <main className='min-h-[80vh]'>
       <Routes>
-        <Route path='"/' element />
+        <Route path="/" element={<Home />} />
       </Routes>
     </main>
   )
