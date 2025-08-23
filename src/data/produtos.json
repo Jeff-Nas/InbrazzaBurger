@@ -5,7 +5,7 @@
         "price": 17.00,
         "category": "entradas",
         "description": "Batata tradicional 300g",
-        "image": "../assets/entradas/batata-300.jpeg"
+        "image": "/entradas/batata-300.jpeg"
     },
     {
         "id": 2,
@@ -13,7 +13,7 @@
         "price": 8.00,
         "category": "entradas",
         "description": "Batata tradicional 100g",
-        "image": "../assets/entradas/batata-100g.jpeg"
+        "image": "/entradas/batata-100g.jpeg"
     },
     {
         "id": 3,
@@ -21,7 +21,7 @@
         "price": 25.00,
         "category": "entradas",
         "description": "Batata Com cheddar e bacon 300g",
-        "image": "../assets/entradas/batata-bacon-300g.jpeg"
+        "image": "/entradas/batata-bacon-300g.jpeg"
     },
     {
         "id": 4,
@@ -29,7 +29,7 @@
         "price": 15.90,
         "category": "entradas",
         "description": "Anéis de cebola empanado com 12 unidades",
-        "image": "../assets/entradas/aneis-de-cebola.png"
+        "image": "/entradas/aneis-de-cebola.png"
     },
     {
         "id": 5,
@@ -37,7 +37,7 @@
         "price": 65.00,
         "category": "combos",
         "description": "4 Brazzas simplão\n 300G Batata tradicional\n + Pespi 1 L (Normal ou zero.)",
-        "image": "../assets/combos/combo-simplao-4_0.png"
+        "image": "/combos/combo-simplao-4_0.png"
     },
     {
         "id": 6,
@@ -45,7 +45,7 @@
         "price": 30.50,
         "category": "combos",
         "description": "1 Brazza Salada\n 100G Batata tradicional\n Refrigerante de 250ml coca ou coca zero.",
-        "image": "../assets/combos/combo-salada.jpeg"
+        "image": "/combos/combo-salada.jpeg"
     },
     {
         "id": 7,
@@ -53,7 +53,7 @@
         "price": 28.00,
         "category": "combos",
         "description": "1 Brazza Pimenta\n 100 G Batata tradicional\n Refrigerante de 250ml coca ou coca zero.",
-        "image": "../assets/combos/combo-pimenta.jpeg"
+        "image": "/combos/combo-pimenta.jpeg"
     },
     {
         "id": 8,
@@ -61,7 +61,7 @@
         "price": 31.50,
         "category": "combos",
         "description": "1 Brazza Calabresa\n 100 G Batata tradicional\n Refrigerante de 250ml coca ou coca zero.",
-        "image": "../assets/combos/combo-calabresa.jpeg"
+        "image": "/combos/combo-calabresa.jpeg"
     },
     {
         "id": 9,
@@ -69,7 +69,7 @@
         "price": 33.00,
         "category": "combos",
         "description": "1 Brazza Bacon\n 100 G Batata tradicional\n Refrigerante de 250ml coca ou coca zero.",
-        "image": "../assets/combos/combo-bacon.jpeg"
+        "image": "/combos/combo-bacon.jpeg"
     },
     {
         "id": 10,
@@ -77,7 +77,7 @@
         "price": 35.50,
         "category": "combos",
         "description": "1 Brazza Onion\n 100 G Batata tradicional\n Refrigerante de 250ml coca ou coca zero.",
-        "image": "../assets/combos/combo-onion.jpeg"
+        "image": "/combos/combo-onion.jpeg"
     },
     {
         "id": 11,
@@ -85,7 +85,7 @@
         "price": 41.50,
         "category": "combos",
         "description": "Combo Duplo\n 100 G Batata tradicional\n Refrigerante de 250ml coca ou coca zero.",
-        "image": "../assets/combos/cpmbo-duplo.jpeg"
+        "image": "/combos/cpmbo-duplo.jpeg"
     },
     {
         "id": 12,
@@ -93,7 +93,7 @@
         "price": 21.50,
         "category": "hamburgers",
         "description": "Pão Brioche, carne 150g, queijo mussarela, alface, cebola,\n tomate, picles, maionese e catchup.",
-        "image": "../assets/hamburgers/brazza-salad.jpeg"
+        "image": "/hamburgers/brazza-salad.jpeg"
     },
     {
         "id": 13,
@@ -101,7 +101,7 @@
         "price": 19.00,
         "category": "hamburgers",
         "description": "Pão Brioche, blend de carne 150g, queijo coalho e geleia de\n pimenta artesanal.",
-        "image": "../assets/hamburgers/brazza-pimenta.jpeg"
+        "image": "/hamburgers/brazza-pimenta.jpeg"
     },
     {
         "id": 14,
@@ -109,7 +109,7 @@
         "price": 17.90,
         "category": "hamburgers",
         "description": "Pão brioche, carne 150g, queijo cheddar e creme cheddar.",
-        "image": "../assets/hamburgers/brazza-simplao.jpeg"
+        "image": "/hamburgers/brazza-simplao.jpeg"
     },
     {
         "id": 15,
@@ -117,7 +117,7 @@
         "price": 22.50,
         "category": "hamburgers",
         "description": "Pão de brioche, Blend especial de carne de 150g, queijo\n mussarela, calabresa, molho barbecue.",
-        "image": "../assets/hamburgers/brazza-calabresa.jpeg"
+        "image": "/hamburgers/brazza-calabresa.jpeg"
     },
     {
         "id": 16,
@@ -125,7 +125,7 @@
         "price": 24.00,
         "category": "hamburgers",
         "description": "Pão de brioche, Blend especial de carne de 150g, queijo Fatias de\n Bacon, queijo Cheddar e Creme de Cheddar.",
-        "image": "../assets/hamburgers/brazza-bacon.jpeg"
+        "image": "/hamburgers/brazza-bacon.jpeg"
     },
     {
         "id": 17,
@@ -133,7 +133,7 @@
         "price": 26.50,
         "category": "hamburgers",
         "description": "Pão de brioche, Blend especial de carne de 150g, 2 fatias de\n queijo cheddar, 2 onion rings crocantes, fatias de bacon e molho\n barbecue",
-        "image": "../assets/hamburgers/brazza-onion.jpeg"
+        "image": "/hamburgers/brazza-onion.jpeg"
     },
     {
         "id": 18,
@@ -141,7 +141,7 @@
         "price": 32.50,
         "category": "hamburgers",
         "description": "Pão brioche, 2 Blends especiais de carne de 150g, fatias de\n queijo cheddar e bacon em dobro",
-        "image": "../assets/hamburgers/brazza-duplo.jpeg"
+        "image": "/hamburgers/brazza-duplo.jpeg"
     },
     {
         "id": 19,
@@ -149,7 +149,7 @@
         "price": 4.50,
         "category": "bebidas",
         "description": "Refrigerante Coca-Cola\n Pet 250ml",
-        "image": "../assets/bebidas/coca-250ml.jpeg"
+        "image": "/bebidas/coca-250ml.jpeg"
     },
     {
         "id": 20,
@@ -157,7 +157,7 @@
         "price": 5.50,
         "category": "bebidas",
         "description": "Refrigerante Coca-Cola\n Lata de 350ml",
-        "image": "../assets/bebidas/coca-350ml.jpeg"
+        "image": "/bebidas/coca-350ml.jpeg"
     },
     {
         "id": 21,
@@ -165,7 +165,7 @@
         "price": 9.00,
         "category": "bebidas",
         "description": "Refrigerante Coca-Cola\n Pet 1L",
-        "image": "../assets/bebidas/coca-1l.jpeg"
+        "image": "/bebidas/coca-1l.jpeg"
     },
     {
         "id": 22,
@@ -173,7 +173,7 @@
         "price": 5.50,
         "category": "bebidas",
         "description": "Fanta Laranja\n Lata 350ml",
-        "image": "../assets/bebidas/fanta-laranja-350ml.jpeg"
+        "image": "/bebidas/fanta-laranja-350ml.jpeg"
     },
     {
         "id": 23,
@@ -181,7 +181,7 @@
         "price": 5.50,
         "category": "bebidas",
         "description": "Refrigerante Guaraná\n Antártica Lata 350ml",
-        "image": "../assets/bebidas/guarana-350ml.jpeg"
+        "image": "/bebidas/guarana-350ml.jpeg"
     },
     {
         "id": 24,
@@ -189,7 +189,7 @@
         "price": 8.50,
         "category": "bebidas",
         "description": "Refrigerante Guaraná\n Antártica Pet 1L",
-        "image": "../assets/bebidas/guarana-1l.jpeg"
+        "image": "/bebidas/guarana-1l.jpeg"
     },
     {
         "id": 25,
@@ -197,7 +197,7 @@
         "price": 6.00,
         "category": "bebidas",
         "description": "Refrigerante Coca-Cola\n Zero Açúcares\n Lata 350ml",
-        "image": "../assets/bebidas/coca-zero-350ml.jpeg"
+        "image": "/bebidas/coca-zero-350ml.jpeg"
     },
     {
         "id": 26,
@@ -205,7 +205,7 @@
         "price": 6.00,
         "category": "bebidas",
         "description": "Refrigerante De Cajú\n Zero Açúcares\n Lata 350ml",
-        "image": "../assets/bebidas/caju-zero-350ml.jpeg"
+        "image": "/bebidas/caju-zero-350ml.jpeg"
     },
     {
         "id": 27,
@@ -213,7 +213,7 @@
         "price": 3.00,
         "category": "bebidas",
         "scription": "Água Mineral\n Sem Gás\n Garrafa 500ml",
-        "image": "../assets/bebidas/agua-sg-500ml.png"
+        "image": "/bebidas/agua-sg-500ml.png"
     },
     {
         "id": 28,
@@ -221,7 +221,7 @@
         "price": 14.90,
         "category": "hamburgers",
         "description": "Pão brioche , carne artesanal esmagada na chapa,\n queijo e creme cheddar",
-        "image": "../assets/hamburgers/smash-chaddar.png"
+        "image": "/hamburgers/smash-chaddar.png"
     },
     {
         "id": 29,
@@ -229,7 +229,7 @@
         "price": 16.99,
         "category": "hamburgers",
         "description": "Pão brioche , duas carnes artesanais esmagadas na chapa,\n com queijo e creme cheddar",
-        "image": "../assets/hamburgers/smash-duplo.jpeg"
+        "image": "/hamburgers/smash-duplo.jpeg"
     },
     {
         "id": 30,
@@ -237,7 +237,7 @@
         "price": 45.90,
         "category": "combos",
         "description": "Acompanha dois Burgers smash deliciosos de carne bovina/\n artesanal esmagada na chapa, bacon crocante, queijo cheddar\n Vigor, aquela cebola roxa chapeada, tudo isso no pão brioche do\n amor. Além disso, vão duas batatas fritas de 100g e dois refris\n coca-cola 250ml zero ou normal ao seu gosto.",
-        "image": "../assets/combos/combo-casal.jpeg"
+        "image": "/combos/combo-casal.jpeg"
     },
     {
         "id": 31,
@@ -245,130 +245,130 @@
         "price": 25.90,
         "category": "combos",
         "description": "Mate a sua fome nesse Burger smash delicioso de carne bovina\n artesanal esmagada na chapa, bacon crocante, queijo cheddar\n Vigor, aquela cebola roxa chapeada, tudo isso no pão brioche da\n felicidade acompanhado de batata frita de 100g e aquele refri\n coca-cola 250ml geladinha zero ou normal ao seu gosto.",
-        "image": "../assets/combos/combo-alone.jpeg"
+        "image": "/combos/combo-alone.jpeg"
     },
     {
         "id": 32,
         "nome": "Tomate",
         "price": 1.00,
         "category": "adicionais",
-        "image": "../assets/adicionais/tomate.jpeg"
+        "image": "/adicionais/tomate.jpeg"
     },
     {
         "id": 33,
         "nome": "Cebola",
         "price": 1.00,
         "category": "adicionais",
-        "image": "../assets/adicionais/cebola.jpeg"
+        "image": "/adicionais/cebola.jpeg"
     },
     {
         "id": 34,
         "nome": "Alface",
         "price": 1.00,
         "category": "adicionais",
-        "image": "../assets/adicionais/alface.jpeg"
+        "image": "/adicionais/alface.jpeg"
     },
     {
         "id": 35,
         "nome": "Picles",
         "price": 1.00,
         "category": "adicionais",
-        "image": "../assets/adicionais/picles.jpeg"
+        "image": "/adicionais/picles.jpeg"
     },
     {
         "id": 36,
         "nome": "Bacon",
         "price": 4.50,
         "category": "adicionais",
-        "image": "../assets/adicionais/bacon.jpeg"
+        "image": "/adicionais/bacon.jpeg"
     },
     {
         "id": 37,
         "nome": "Calabresa",
         "price": 4.00,
         "category": "adicionais",
-        "image": "../assets/adicionais/calabresa.jpeg"
+        "image": "/adicionais/calabresa.jpeg"
     },
     {
         "id": 38,
         "nome": "Queijo Cheddar",
         "price": 4.00,
         "category": "adicionais",
-        "image": "../assets/adicionais/queijo-cheddar.jpeg"
+        "image": "/adicionais/queijo-cheddar.jpeg"
     },
     {
         "id": 39,
         "nome": "Queijo Coalho",
         "price": 4.00,
         "category": "adicionais",
-        "image": "../assets/adicionais/coalho.jpeg"
+        "image": "/adicionais/coalho.jpeg"
     },
     {
         "id": 40,
         "nome": "Queijo Mussarela",
         "price": 4.00,
         "category": "adicionais",
-        "image": "../assets/adicionais/mussarela.jpeg"
+        "image": "/adicionais/mussarela.jpeg"
     },
     {
         "id": 41,
         "nome": "Barbercue",
         "price": 2.50,
         "category": "adicionais",
-        "image": "../assets/adicionais/barbecue.jpeg"
+        "image": "/adicionais/barbecue.jpeg"
     },
     {
         "id": 42,
         "nome": "Molho cheddar",
         "price": 4.00,
         "category": "adicionais",
-        "image": "../assets/adicionais/molho-cheddar.jpeg"
+        "image": "/adicionais/molho-cheddar.jpeg"
     },
     {
         "id": 43,
         "nome": "Geleia de Pimenta",
         "price": 4.50,
         "category": "adicionais",
-        "image": "../assets/adicionais/geleia-pimenta.jpeg"
+        "image": "/adicionais/geleia-pimenta.jpeg"
     },
     {
         "id": 44,
         "nome": "Doritos",
         "price": 3.50,
         "category": "adicionais",
-        "image": "../assets/adicionais/doritos.jpeg"
+        "image": "/adicionais/doritos.jpeg"
     },
     {
         "id": 45,
         "nome": "Pão Integral Plus Vita 30%",
         "price": 3.50,
         "category": "adicionais",
-        "image": "../assets/adicionais/pao-integral.jpeg"
+        "image": "/adicionais/pao-integral.jpeg"
     },
     {
         "id": 46,
         "nome": "Carne Esmagada",
         "price": 4.50,
         "category": "adicionais",
-        "image": "../assets/adicionais/carne-esmagada.jpeg"
+        "image": "/adicionais/carne-esmagada.jpeg"
     },
     {
         "id": 47,
         "nome": "Carne Bovina",
         "price": 8.00,
         "category": "adicionais",
-        "image": "../assets/adicionais/carne-bov.jpeg"
+        "image": "/adicionais/carne-bov.jpeg"
     },
     {
         "id": 48,
         "nome": "Sachê Maionese",
         "category": "molhos",
-        "image": "../assets/adicionais/maionese.jpeg"
+        "image": "/adicionais/maionese.jpeg"
     },
     {
         "id": 49,
         "nome": "Sachê Ketchup",
         "category": "molhos",
-        "image": "../assets/adicionais/ketchup.jpeg"
+        "image": "/adicionais/ketchup.jpeg"
     }
 ]
