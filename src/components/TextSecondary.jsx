@@ -1,7 +1,7 @@
 
-export function TextSecondary({ children }) {
+export function TextSecondary({ children, className }) {
     return (
-        <p className="text-sm font-light text-gray-700">
+        <p className={`text-sm font-light text-gray-905 ${className}`}>
             {children}
         </p>
     )
