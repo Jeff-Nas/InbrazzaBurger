@@ -1,4 +1,4 @@
-import { CaretLeftIcon, MoneyIcon, PixLogoIcon, CreditCardIcon } from "@phosphor-icons/react"
+import { CaretLeftIcon, MoneyIcon, PixLogoIcon, CreditCardIcon, InstagramLogoIcon, WhatsappLogoIcon } from "@phosphor-icons/react"
 import { TextSecondary } from "../components/TextSecondary"
 import { Link } from "react-router-dom"
 import Map from "../components/Map"
@@ -18,12 +18,22 @@ export function InfoCard({ children }) {
 export function StorePage() {
     return (
         <section className="md:w-2xl mx-auto">
-            <Link
-                to="/"
-                className="flex p-3 gap-3 items-center border-b-1 border-gray400">
-                <CaretLeftIcon size={22} />
-                <h2>Perfil da Loja</h2>
-            </Link>
+            <div className="flex  items-center justify-between border-b-1 border-gray400">
+                <Link
+                    to="/"
+                    className="flex p-3 gap-3 items-center">
+                    <CaretLeftIcon size={22} />
+                    <h2>Perfil da Loja</h2>
+                </Link>
+                <div className="flex gap-3 pr-3">
+                    <a href="https://www.instagram.com/inbrazzaburger1/">
+                        <InstagramLogoIcon size={24} className="text-pink-900" />
+                    </a>
+                    <a href="https://l.instagram.com/?u=https%3A%2F%2Fwa.me%2F5585989814263&e=AT3ynMe2mVDz9LiB3QuZJhEYF-QXhJ4n-Cfix_xS7OLhK-iICcVAZntucyA6JyQvz9CCajEFCxmCBRpoIMjfkVh7fdjdoV_Q">
+                        <WhatsappLogoIcon size={24} className="text-green-900" />
+                    </a>
+                </div>
+            </div>
             <div className="p-3 flex justify-between">
                 <div>
                     <h2 className="font-bold text-xl">Inbrazza Burger</h2>
@@ -37,12 +47,13 @@ export function StorePage() {
             <div className="p-3">
                 <TextSecondary>Domingo: 18h30m às 22h30min</TextSecondary>
                 <TextSecondary>Quarta-feira: 18h30m às 22h30m</TextSecondary>
-                <TextSecondary>Quta-feira: 18h30m às 22h30m</TextSecondary>
+                <TextSecondary>Quinta-feira: 18h30m às 22h30m</TextSecondary>
                 <TextSecondary>Sexta-feira: 18h30m às 22h30m</TextSecondary>
                 <TextSecondary>Sábado: 18h30m às 22h30m</TextSecondary>
             </div>
+
             <InfoCard>Formas de Pagamento</InfoCard>
-            <div className="flex justify-between p-4">
+            <div className="flex justify-evenly py-4">
                 <div className="flex flex-col items-center gap-1">
                     <p>Dinheiro</p>
                     <MoneyIcon size={30} className="text-gray-700" />
@@ -56,6 +67,7 @@ export function StorePage() {
                     <PixLogoIcon size={30} className="text-gray-700" />
                 </div>
             </div>
+
             <InfoCard>Localização</InfoCard>
             <div className="p-3">
                 <TextSecondary className="py-3">Rua 136, 21 - Timbó, Maracanaú - CE, 61.936-390, Brasil</TextSecondary>
