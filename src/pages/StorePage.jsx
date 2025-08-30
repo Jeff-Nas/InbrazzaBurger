@@ -31,15 +31,15 @@ export function StorePage() {
                 </div>
                 <img
                     className="h-14"
-                    src="/public/logo.png" alt="logo inbrazza" />
+                    src="/logo.png" alt="logo inbrazza" />
             </div>
             <InfoCard>Horário de atendimento</InfoCard>
             <div className="p-3">
-                <TextSecondary>Domingo: 18h30m às 22h303min</TextSecondary>
-                <TextSecondary>Quarta-feira: 18h30m às 22h303m</TextSecondary>
-                <TextSecondary>Quta-feira: 18h30m às 22h303m</TextSecondary>
-                <TextSecondary>Sexta-feira: 18h30m às 22h303m</TextSecondary>
-                <TextSecondary>Sábado: 18h30m às 22h303m</TextSecondary>
+                <TextSecondary>Domingo: 18h30m às 22h30min</TextSecondary>
+                <TextSecondary>Quarta-feira: 18h30m às 22h30m</TextSecondary>
+                <TextSecondary>Quta-feira: 18h30m às 22h30m</TextSecondary>
+                <TextSecondary>Sexta-feira: 18h30m às 22h30m</TextSecondary>
+                <TextSecondary>Sábado: 18h30m às 22h30m</TextSecondary>
             </div>
             <InfoCard>Formas de Pagamento</InfoCard>
             <div className="flex justify-between p-4">
