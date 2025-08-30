@@ -3,6 +3,7 @@ import logo from "../assets/logo.png"
 import { MagnifyingGlassIcon, ShareNetworkIcon, CaretRightIcon } from "@phosphor-icons/react"
 import { StoreStatus } from "./StoreStatus"
 import { Link } from "react-router-dom"
+import { ShareButton } from "./ShareButton"
 
 
 export function Header() {
@@ -45,11 +46,7 @@ export function Header() {
                             >
                                 <MagnifyingGlassIcon size={18} color="#D5170D" weight="bold" />
                             </button>
-                            <button
-                                className="bg-red-200 p-1 rounded-3xl cursor-pointer"
-                            >
-                                <ShareNetworkIcon size={18} color="#D5170D" weight="bold" />
-                            </button>
+                            <ShareButton />
                         </div>
                     </div>
                     <div>

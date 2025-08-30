@@ -17,7 +17,7 @@ export function InfoCard({ children }) {
 
 export function StorePage() {
     return (
-        <div>
+        <section className="md:w-2xl mx-auto">
             <Link
                 to="/"
                 className="flex p-3 gap-3 items-center border-b-1 border-gray400">
@@ -65,6 +65,6 @@ export function StorePage() {
             </div>
 
 
-        </div>
+        </section>
     )
 }
