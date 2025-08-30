@@ -29,6 +29,8 @@ export function StoreStatus() {
 
             if (minutosAgora >= abre && minutosAgora <= fecha) {
                 setStatus(`Loja aberta - Fecha às ${horarios[diaSemana].fecha}.`);
+            } else if (minutosAgora > fecha && diaSemana !== 0) {
+                setStatus(`Loja fechada - Abre amanhã às ${horarios[diaSemana].abre}.`);
             } else {
                 setStatus(`Loja fechada - Abre às ${horarios[diaSemana].abre}.`);
             }
