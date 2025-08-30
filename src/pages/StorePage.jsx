@@ -29,7 +29,7 @@ export function StorePage() {
                     <a href="https://www.instagram.com/inbrazzaburger1/">
                         <InstagramLogoIcon size={24} className="text-pink-900" />
                     </a>
-                    <a href="https://l.instagram.com/?u=https%3A%2F%2Fwa.me%2F5585989814263&e=AT3ynMe2mVDz9LiB3QuZJhEYF-QXhJ4n-Cfix_xS7OLhK-iICcVAZntucyA6JyQvz9CCajEFCxmCBRpoIMjfkVh7fdjdoV_Q">
+                    <a href="https://wa.me/5585989814263">
                         <WhatsappLogoIcon size={24} className="text-green-900" />
                     </a>
                 </div>
