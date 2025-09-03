@@ -5,7 +5,7 @@ import Map from "../components/Map"
 
 export function InfoCard({ children }) {
     return (
-        <div className="bg-gray-200 opacity-85 p-4 rounded-t-2xl border-b-1 border-gray-400">
+        <div className="bg-gray-200 opacity-85 px-4 py-3 rounded-t-2xl ">
             <span
                 className="font-bold"
             >
@@ -27,10 +27,10 @@ export function StorePage() {
                 </Link>
                 <div className="flex gap-3 pr-3">
                     <a href="https://www.instagram.com/inbrazzaburger1/">
-                        <InstagramLogoIcon size={24} className="text-pink-900" />
+                        <InstagramLogoIcon size={26} weight="light" className="text-pink-900" />
                     </a>
                     <a href="https://wa.me/5585989814263">
-                        <WhatsappLogoIcon size={24} className="text-green-900" />
+                        <WhatsappLogoIcon size={26} weight="light" className="text-green-900" />
                     </a>
                 </div>
             </div>

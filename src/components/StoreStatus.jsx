@@ -23,19 +23,27 @@ export function StoreStatus() {
         const diaSemana = agora.getDay();
         const minutosAgora = agora.getHours() * 60 + agora.getMinutes();
 
-        if (horarios[diaSemana]) {
+        const abreHoje = [0, 3, 4, 5, 6].includes(diaSemana)
+
+        if (abreHoje) {
+
             const abre = parseHora(horarios[diaSemana].abre);
             const fecha = parseHora(horarios[diaSemana].fecha);
 
             if (minutosAgora >= abre && minutosAgora <= fecha) {
                 setStatus(`Loja aberta - Fecha às ${horarios[diaSemana].fecha}.`);
-            } else if (minutosAgora > fecha && diaSemana !== 0) {
-                setStatus(`Loja fechada - Abre amanhã às ${horarios[diaSemana].abre}.`);
+            } else if (minutosAgora > fecha) {
+                if (diaSemana === 0) {
+                    setStatus('Loja fechada, abre quarta às 18h30')
+                } else {
+                    setStatus(`Loja fechada - Abre amanhã às ${horarios[diaSemana].abre}.`);
+                }
+
             } else {
-                setStatus(`Loja fechada - Abre às ${horarios[diaSemana].abre}.`);
+                setStatus(`Loja fechada - Abre hoje às ${horarios[diaSemana].abre}.`);
             }
         } else {
-            setStatus("Loja fechada hoje.")
+            setStatus('Loja fechada, abre quarta às 18h30')
         }
     }, []);
 

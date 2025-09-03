@@ -9,3 +9,7 @@
     --font-notosans: "Noto Sans JP", sans-serif;
 
 }
+
+@utility no-scrollbar {
+    @apply [scrollbar-width:none] [&::-webkit-scrollbar]:hidden;
+}

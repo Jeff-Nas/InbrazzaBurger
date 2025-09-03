@@ -219,7 +219,7 @@
         "id": 28,
         "nome": "Smash Cheddar",
         "price": 14.90,
-        "category": "hamburgers",
+        "category": "smash",
         "description": "Pão brioche , carne artesanal esmagada na chapa,\n queijo e creme cheddar",
         "image": "/hamburgers/smash-chaddar.png"
     },
@@ -227,7 +227,7 @@
         "id": 29,
         "nome": "Smash Duplo",
         "price": 16.99,
-        "category": "hamburgers",
+        "category": "smash",
         "description": "Pão brioche , duas carnes artesanais esmagadas na chapa,\n com queijo e creme cheddar",
         "image": "/hamburgers/smash-duplo.jpeg"
     },
@@ -235,7 +235,7 @@
         "id": 30,
         "nome": "Combo Casal",
         "price": 45.90,
-        "category": "combos",
+        "category": "combos-smash",
         "description": "Acompanha dois Burgers smash deliciosos de carne bovina/\n artesanal esmagada na chapa, bacon crocante, queijo cheddar\n Vigor, aquela cebola roxa chapeada, tudo isso no pão brioche do\n amor. Além disso, vão duas batatas fritas de 100g e dois refris\n coca-cola 250ml zero ou normal ao seu gosto.",
         "image": "/combos/combo-casal.jpeg"
     },
@@ -243,7 +243,7 @@
         "id": 31,
         "nome": "Combo Alone",
         "price": 25.90,
-        "category": "combos",
+        "category": "combos-smash",
         "description": "Mate a sua fome nesse Burger smash delicioso de carne bovina\n artesanal esmagada na chapa, bacon crocante, queijo cheddar\n Vigor, aquela cebola roxa chapeada, tudo isso no pão brioche da\n felicidade acompanhado de batata frita de 100g e aquele refri\n coca-cola 250ml geladinha zero ou normal ao seu gosto.",
         "image": "/combos/combo-alone.jpeg"
     },
