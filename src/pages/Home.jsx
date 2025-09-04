@@ -1,12 +1,15 @@
-import { Link } from "react-router-dom";
+import { useState } from "react";
 import { Header } from "../components/Header";
 import { Menu } from "../components/Menu";
+import { Produtos } from "../components/Produtos";
 
 export default function Home() {
+    const [activeSection, setActiveSection] = useState("entradas")
     return (
         <div>
             <Header />
-            <Menu />
+            <Menu active={activeSection} onChange={setActiveSection} />
+            <Produtos onSectionChange={setActiveSection} />
         </div>
     )
 }
