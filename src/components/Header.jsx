@@ -19,7 +19,7 @@ export function Header() {
                 </div>
                 <div className="w-[90%] md:w-2/3 lg:w-3/5 h-auto border  border-gray-400 rounded-2xl -mt-4 bg-white z-50 relative">
                     <div className="flex items-center my-1">
-                        <div className="flex w-full ">
+                        <div className="flex w-full">
                             <div className="flex items-center w-full grow">
                                 <img
                                     className="w-14 drop-shadow-sm grayscale-25"
