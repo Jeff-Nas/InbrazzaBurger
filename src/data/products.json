@@ -368,13 +368,43 @@
     {
         "id": 48,
         "name": "Sachê Maionese",
-        "category": "molhos",
+        "price": 1.0,
+        "category": "adicionais",
         "image": "/adicionais/maionese.jpeg"
     },
     {
         "id": 49,
+        "price": 1.0,
+        "name": "Sachê Ketchup",
+        "category": "adicionais",
+        "image": "/adicionais/ketchup.jpeg"
+    },
+    {
+        "id": 50,
+        "price": 3.0,
+        "name": "Maionese Temperada",
+        "category": "adicionais",
+        "image": "/adicionais/maionese-temperada.jpeg"
+    },
+    {
+        "id": 51,
+        "name": "Sachê Maionese",
+        "price": null,
+        "category": "molhos",
+        "image": "/adicionais/maionese.jpeg"
+    },
+    {
+        "id": 52,
+        "price": null,
         "name": "Sachê Ketchup",
         "category": "molhos",
         "image": "/adicionais/ketchup.jpeg"
+    },
+    {
+        "id": 53,
+        "price": null,
+        "name": "Maionese Temperada",
+        "category": "molhos",
+        "image": "/adicionais/maionese-temperada.jpeg"
     }
 ]
