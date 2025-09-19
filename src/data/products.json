@@ -36,7 +36,7 @@
         "name": "Combo Simplão 4.0",
         "price": 65.00,
         "category": "combos",
-        "description": "4 Brazzas simplão\n 300G Batata tradicional\n + Pespi 1 L (Normal ou zero.)",
+        "description": "4 Brazzas simplão 300G Batata tradicional + Pespi 1 L (Normal ou zero.)",
         "maisPedido": true,
         "image": "/combos/combo-simplao-4_0.png"
     },
@@ -45,7 +45,7 @@
         "name": "Combo Salada",
         "price": 30.50,
         "category": "combos",
-        "description": "1 Brazza Salada\n 100G Batata tradicional\n Refrigerante de 250ml coca ou coca zero.",
+        "description": "1 Brazza Salada 100G Batata tradicional Refrigerante de 250ml coca ou coca zero.",
         "image": "/combos/combo-salada.jpeg"
     },
     {
@@ -53,7 +53,7 @@
         "name": "Combo Pimenta",
         "price": 28.00,
         "category": "combos",
-        "description": "1 Brazza Pimenta\n 100 G Batata tradicional\n Refrigerante de 250ml coca ou coca zero.",
+        "description": "1 Brazza Pimenta 100 G Batata tradicional Refrigerante de 250ml coca ou coca zero.",
         "image": "/combos/combo-pimenta.jpeg"
     },
     {
@@ -61,7 +61,7 @@
         "name": "Combo Calabresa",
         "price": 31.50,
         "category": "combos",
-        "description": "1 Brazza Calabresa\n 100 G Batata tradicional\n Refrigerante de 250ml coca ou coca zero.",
+        "description": "1 Brazza Calabresa 100 G Batata tradicional Refrigerante de 250ml coca ou coca zero.",
         "image": "/combos/combo-calabresa.jpeg"
     },
     {
@@ -69,7 +69,7 @@
         "name": "Combo Bacon",
         "price": 33.00,
         "category": "combos",
-        "description": "1 Brazza Bacon\n 100 G Batata tradicional\n Refrigerante de 250ml coca ou coca zero.",
+        "description": "1 Brazza Bacon 100 G Batata tradicional Refrigerante de 250ml coca ou coca zero.",
         "image": "/combos/combo-bacon.jpeg"
     },
     {
@@ -77,7 +77,7 @@
         "name": "Combo Onion",
         "price": 35.50,
         "category": "combos",
-        "description": "1 Brazza Onion\n 100 G Batata tradicional\n Refrigerante de 250ml coca ou coca zero.",
+        "description": "1 Brazza Onion 100 G Batata tradicional Refrigerante de 250ml coca ou coca zero.",
         "image": "/combos/combo-onion.jpeg"
     },
     {
@@ -85,7 +85,7 @@
         "name": "Combo Duplo",
         "price": 41.50,
         "category": "combos",
-        "description": "Combo Duplo\n 100 G Batata tradicional\n Refrigerante de 250ml coca ou coca zero.",
+        "description": "Combo Duplo 100 G Batata tradicional Refrigerante de 250ml coca ou coca zero.",
         "image": "/combos/cpmbo-duplo.jpeg"
     },
     {
@@ -93,7 +93,7 @@
         "name": "Brazza Salada",
         "price": 21.50,
         "category": "hamburgers",
-        "description": "Pão Brioche, carne 150g, queijo mussarela, alface, cebola,\n tomate, picles, maionese e catchup.",
+        "description": "Pão Brioche, carne 150g, queijo mussarela, alface, cebola, tomate, picles, maionese e catchup.",
         "maisPedido": true,
         "image": "/hamburgers/brazza-salad.jpeg"
     },
@@ -102,7 +102,7 @@
         "name": "Brazza Pimenta",
         "price": 19.00,
         "category": "hamburgers",
-        "description": "Pão Brioche, blend de carne 150g, queijo coalho e geleia de\n pimenta artesanal.",
+        "description": "Pão Brioche, blend de carne 150g, queijo coalho e geleia de pimenta artesanal.",
         "maisPedido": true,
         "image": "/hamburgers/brazza-pimenta.jpeg"
     },
@@ -120,7 +120,7 @@
         "name": "Brazza Calabreza",
         "price": 22.50,
         "category": "hamburgers",
-        "description": "Pão de brioche, Blend especial de carne de 150g, queijo\n mussarela, calabresa, molho barbecue.",
+        "description": "Pão de brioche, Blend especial de carne de 150g, queijo mussarela, calabresa, molho barbecue.",
         "image": "/hamburgers/brazza-calabresa.jpeg"
     },
     {
@@ -128,7 +128,7 @@
         "name": "Brazza Bacon",
         "price": 24.00,
         "category": "hamburgers",
-        "description": "Pão de brioche, Blend especial de carne de 150g, queijo Fatias de\n Bacon, queijo Cheddar e Creme de Cheddar.",
+        "description": "Pão de brioche, Blend especial de carne de 150g, queijo Fatias de Bacon, queijo Cheddar e Creme de Cheddar.",
         "maisPedido": true,
         "image": "/hamburgers/brazza-bacon.jpeg"
     },
@@ -137,7 +137,7 @@
         "name": "Brazza Onion",
         "price": 26.50,
         "category": "hamburgers",
-        "description": "Pão de brioche, Blend especial de carne de 150g, 2 fatias de\n queijo cheddar, 2 onion rings crocantes, fatias de bacon e molho\n barbecue",
+        "description": "Pão de brioche, Blend especial de carne de 150g, 2 fatias de queijo cheddar, 2 onion rings crocantes, fatias de bacon e molho barbecue",
         "image": "/hamburgers/brazza-onion.jpeg"
     },
     {
@@ -145,7 +145,7 @@
         "name": "Brazza Duplo",
         "price": 32.50,
         "category": "hamburgers",
-        "description": "Pão brioche, 2 Blends especiais de carne de 150g, fatias de\n queijo cheddar e bacon em dobro",
+        "description": "Pão brioche, 2 Blends especiais de carne de 150g, fatias de queijo cheddar e bacon em dobro",
         "maisPedido": true,
         "image": "/hamburgers/brazza-duplo.jpeg"
     },
@@ -154,7 +154,7 @@
         "name": "Coca 250ml",
         "price": 4.50,
         "category": "bebidas",
-        "description": "Refrigerante Coca-Cola\n Pet 250ml",
+        "description": "Refrigerante Coca-Cola Pet 250ml",
         "image": "/bebidas/coca-250ml.jpeg"
     },
     {
@@ -162,7 +162,7 @@
         "name": "Coca 350ml",
         "price": 5.50,
         "category": "bebidas",
-        "description": "Refrigerante Coca-Cola\n Lata de 350ml",
+        "description": "Refrigerante Coca-Cola Lata de 350ml",
         "image": "/bebidas/coca-350ml.jpeg"
     },
     {
@@ -170,7 +170,7 @@
         "name": "Coca 1L",
         "price": 9.00,
         "category": "bebidas",
-        "description": "Refrigerante Coca-Cola\n Pet 1L",
+        "description": "Refrigerante Coca-Cola Pet 1L",
         "image": "/bebidas/coca-1l.jpeg"
     },
     {
@@ -178,7 +178,7 @@
         "name": "Fanta Laranja 350ml",
         "price": 5.50,
         "category": "bebidas",
-        "description": "Fanta Laranja\n Lata 350ml",
+        "description": "Fanta Laranja Lata 350ml",
         "image": "/bebidas/fanta-laranja-350ml.jpeg"
     },
     {
@@ -186,7 +186,7 @@
         "name": "Guaraná Antártica 350ml",
         "price": 5.50,
         "category": "bebidas",
-        "description": "Refrigerante Guaraná\n Antártica Lata 350ml",
+        "description": "Refrigerante Guaraná Antártica Lata 350ml",
         "image": "/bebidas/guarana-350ml.jpeg"
     },
     {
@@ -194,7 +194,7 @@
         "name": "Guaraná Antártica 1L",
         "price": 8.50,
         "category": "bebidas",
-        "description": "Refrigerante Guaraná\n Antártica Pet 1L",
+        "description": "Refrigerante Guaraná Antártica Pet 1L",
         "image": "/bebidas/guarana-1l.jpeg"
     },
     {
@@ -202,7 +202,7 @@
         "name": "Coca Zero 350ml",
         "price": 6.00,
         "category": "bebidas",
-        "description": "Refrigerante Coca-Cola\n Zero Açúcares\n Lata 350ml",
+        "description": "Refrigerante Coca-Cola Zero Açúcares Lata 350ml",
         "image": "/bebidas/coca-zero-350ml.jpeg"
     },
     {
@@ -210,7 +210,7 @@
         "name": "São Geraldo 350ml",
         "price": 6.00,
         "category": "bebidas",
-        "description": "Refrigerante De Cajú\n Zero Açúcares\n Lata 350ml",
+        "description": "Refrigerante De Cajú Zero Açúcares Lata 350ml",
         "image": "/bebidas/caju-zero-350ml.jpeg"
     },
     {
@@ -218,7 +218,7 @@
         "name": "Água Mineral 500ml",
         "price": 3.00,
         "category": "bebidas",
-        "scription": "Água Mineral\n Sem Gás\n Garrafa 500ml",
+        "scription": "Água Mineral Sem Gás Garrafa 500ml",
         "image": "/bebidas/agua-sg-500ml.png"
     },
     {
@@ -226,7 +226,7 @@
         "name": "Smash Cheddar",
         "price": 14.90,
         "category": "smash",
-        "description": "Pão brioche , carne artesanal esmagada na chapa,\n queijo e creme cheddar",
+        "description": "Pão brioche , carne artesanal esmagada na chapa, queijo e creme cheddar",
         "image": "/hamburgers/smash-chaddar.png"
     },
     {
@@ -234,7 +234,7 @@
         "name": "Smash Duplo",
         "price": 16.99,
         "category": "smash",
-        "description": "Pão brioche , duas carnes artesanais esmagadas na chapa,\n com queijo e creme cheddar",
+        "description": "Pão brioche , duas carnes artesanais esmagadas na chapa, com queijo e creme cheddar",
         "image": "/hamburgers/smash-duplo.jpeg"
     },
     {
@@ -242,7 +242,7 @@
         "name": "Combo Casal",
         "price": 45.90,
         "category": "combos-smash",
-        "description": "Acompanha dois Burgers smash deliciosos de carne bovina/\n artesanal esmagada na chapa, bacon crocante, queijo cheddar\n Vigor, aquela cebola roxa chapeada, tudo isso no pão brioche do\n amor. Além disso, vão duas batatas fritas de 100g e dois refris\n coca-cola 250ml zero ou normal ao seu gosto.",
+        "description": "Acompanha dois Burgers smash deliciosos de carne bovina artesanal esmagada na chapa, bacon crocante, queijo cheddar Vigor, aquela cebola roxa chapeada, tudo isso no pão brioche do amor. Além disso, vão duas batatas fritas de 100g e dois refris coca-cola 250ml zero ou normal ao seu gosto.",
         "image": "/combos/combo-casal.jpeg"
     },
     {
@@ -250,7 +250,7 @@
         "name": "Combo Alone",
         "price": 25.90,
         "category": "combos-smash",
-        "description": "Mate a sua fome nesse Burger smash delicioso de carne bovina\n artesanal esmagada na chapa, bacon crocante, queijo cheddar\n Vigor, aquela cebola roxa chapeada, tudo isso no pão brioche da\n felicidade acompanhado de batata frita de 100g e aquele refri\n coca-cola 250ml geladinha zero ou normal ao seu gosto.",
+        "description": "Mate a sua fome nesse Burger smash delicioso de carne bovina artesanal esmagada na chapa, bacon crocante, queijo cheddar Vigor, aquela cebola roxa chapeada, tudo isso no pão brioche da felicidade acompanhado de batata frita de 100g e aquele refri coca-cola 250ml geladinha zero ou normal ao seu gosto.",
         "image": "/combos/combo-alone.jpeg"
     },
     {
