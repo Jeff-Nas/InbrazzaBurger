@@ -1,0 +1,25 @@
+
+const textVariants = {
+    default: "text-sm text-gray-700",
+    mini: "text-[13px] text-gray-500 font-normal",
+    normal: "text-base text-gray-700",
+    heading: "text-lg text-gray-800 font-semibold"
+}
+
+export function TextBase({
+    as: Tag = "span",
+    variant = "default",
+    children,
+    role,
+    className = ""
+}) {
+
+
+    return (
+        <Tag className={`${textVariants[variant]} ${className} whitespace-pre-line`} role={role}>
+            {children}
+        </Tag>
+    )
+}
+
+//role?

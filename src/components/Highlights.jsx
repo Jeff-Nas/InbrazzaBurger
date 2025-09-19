@@ -1,22 +1,27 @@
 import products from "../data/products.json"
+import { ImageProduct } from "./ImageProduct";
+import { TextBase } from "./TextBase";
 import { TextPrice } from "./TextPrice";
 
 const highlights = products.filter(product => product.maisPedido);
-console.table(highlights)
 
 export function Highlights() {
 
     return (
 
         <div>
-            {highlights.map((item, index) => (
+            {highlights.map(item => (
                 <div key={item.id}>
-                    <span>{item.name}</span>
+                    <ImageProduct src={item.image} alt={`Imagem de ${item.name}`} />
+                    <TextBase>{item.name}</TextBase>
                     <TextPrice
                         price={item?.price}
                     />
                 </div>
             ))}
+            <div>
+                Total: <TextPrice price={highlights.reduce((acc, item) => (acc + item.price), 0)} />
+            </div>
         </div>
 
     )
