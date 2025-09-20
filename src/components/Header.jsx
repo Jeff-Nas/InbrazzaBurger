@@ -10,7 +10,7 @@ export function Header() {
 
     return (
         <header>
-            <div className="flex flex-col items-center">
+            <div className="flex flex-col items-center font-roboto">
                 <div>
                     <img
                         className="w-full md:h-auto md:w-3/4 lg:w-2/3 mx-auto md:rounded-b-2xl border-b-4 border-red-600"

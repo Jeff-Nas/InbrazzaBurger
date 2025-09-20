@@ -7,7 +7,7 @@ import Home from './pages/Home'
 function App() {
 
   return (
-    <main className='min-h-[80vh] font-notosans'>
+    <main className='min-h-[80vh]'>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/profile/inbrazzaburger" element={<StorePage />} />

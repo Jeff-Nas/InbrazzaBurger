@@ -16,21 +16,10 @@ export default function Home() {
             <Header />
             {isMobile && (<Menu active={activeSection} onChange={setActiveSection} />)}
 
-            <main className="px-2">
+            <main className="px-2 font-display md:h-auto md:w-3/4 lg:w-2/3 mx-auto">
                 <Products onSectionChange={setActiveSection} />
                 <Highlights />
-                <TextBase
-                    as="h2"
-                    role="heading"
-                    variant="heading"
-                >
-                    Entradas
-                </TextBase>
-                <TextBase
-                    as="p"
-                    variant="mini"
-                >
-                    Mate a sua fome nesse Burger smash delicioso de carne bovina artesanal esmagada na chapa, bacon crocante, queijo cheddar Vigor, aquela cebola roxa chapeada, tudo isso no pão brioche da felicidade acompanhado de batata frita de 100g e aquele refri coca-cola 250ml geladinha zero o                </TextBase>
+
             </main>
         </div>
     )
