@@ -49,7 +49,7 @@ export function StoreStatus() {
 
     return (
         <div
-            className={`p-1.5 rounded-2xl text-center text-xs lg:text-sm ${status.includes("aberta")
+            className={`p-1.5 rounded-b-2xl text-center text-xs lg:text-sm ${status.includes("aberta")
                 ? "bg-green-100 text-green-700"
                 : "bg-red-100 text-red-700"
                 }`}

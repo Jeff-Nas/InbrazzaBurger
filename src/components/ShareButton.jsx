@@ -24,7 +24,10 @@ export function ShareButton() {
             onClick={handleShare}
             className="bg-red-200 p-1 rounded-3xl cursor-pointer"
         >
-            <ShareNetworkIcon size={18} color="#D5170D" weight="bold" />
+            <ShareNetworkIcon
+                size={18}
+                color="#D5170D"
+                weight="bold" />
         </button>
     )
 }

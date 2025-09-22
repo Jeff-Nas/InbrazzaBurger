@@ -49,7 +49,7 @@ export function Header() {
                             <ShareButton />
                         </div>
                     </div>
-                    <div>
+                    <div className="z-0">
                         <StoreStatus />
                     </div>
                 </div>

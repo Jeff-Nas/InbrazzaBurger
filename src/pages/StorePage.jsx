@@ -25,23 +25,24 @@ export function StorePage() {
                     <CaretLeftIcon size={22} />
                     <h2>Perfil da Loja</h2>
                 </Link>
-                <div className="flex gap-3 pr-3">
-                    <a href="https://www.instagram.com/inbrazzaburger1/">
-                        <InstagramLogoIcon size={26} weight="light" className="text-pink-900" />
-                    </a>
-                    <a href="https://wa.me/5585989814263">
-                        <WhatsappLogoIcon size={26} weight="light" className="text-green-900" />
-                    </a>
-                </div>
+
             </div>
             <div className="p-3 flex justify-between">
                 <div>
                     <h2 className="font-bold text-xl">Inbrazza Burger</h2>
                     <p className="text-sm font-normal">Hambúrguer Feito na Brasa!</p>
                 </div>
-                <img
-                    className="h-14"
-                    src="/logo.png" alt="logo inbrazza" />
+                <div className="bg-gray-100 rounded-2xl border border-gray-200 flex flex-col items-center justify-center">
+
+                    <div className="flex gap-3 px-3 py-0.5">
+                        <a href="https://www.instagram.com/inbrazzaburger1/">
+                            <InstagramLogoIcon size={28} weight="light" className="text-pink-900" />
+                        </a>
+                        <a href="https://wa.me/5585989814263">
+                            <WhatsappLogoIcon size={28} weight="light" className="text-green-900" />
+                        </a>
+                    </div>
+                </div>
             </div>
             <InfoCard>Horário de atendimento</InfoCard>
             <div className="p-3">
