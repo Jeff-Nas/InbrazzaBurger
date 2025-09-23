@@ -1,9 +1,10 @@
 
-export function TextPrice({ price, variant = "small", className = "" }) {
+export function TextPrice({ price, variant = "small", className = "text-gray-600" }) {
 
     const sizes = {
         small: "sm",
-        base: "base"
+        base: "base",
+        large: "lg"
     }
 
     if (price == null) {
@@ -12,7 +13,7 @@ export function TextPrice({ price, variant = "small", className = "" }) {
 
     return (
         <span
-            className={`text-${sizes[variant]}  font-extrabold antialiased ${className ? className : "text-gray-600"}`}
+            className={`text-${sizes[variant]}  font-extrabold antialiased ${className}`}
         >
             {Number(price).toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}
         </span>

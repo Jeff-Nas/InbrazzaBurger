@@ -4,7 +4,7 @@ import { Menu } from "../components/Menu";
 import { Products } from "../components/Products";
 import useIsMobile from "../hooks/useIsMobile";
 import { Highlights } from "../components/Highlights";
-import { TextBase } from "../components/TextBase";
+
 
 
 export default function Home() {

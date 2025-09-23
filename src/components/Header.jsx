@@ -46,7 +46,11 @@ export function Header() {
                             >
                                 <MagnifyingGlassIcon size={18} color="#D5170D" weight="bold" />
                             </button>
-                            <ShareButton />
+                            <ShareButton
+                                title="Inbrazza Burger"
+                                text="Experimente o melhor hambúrguer da cidade, feito na brasa!"
+                                url="https://inbrazza-burger.vercel.app/"
+                            />
                         </div>
                     </div>
                     <div className="z-0">

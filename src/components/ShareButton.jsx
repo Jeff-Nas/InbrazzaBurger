@@ -1,12 +1,9 @@
 import { ShareNetworkIcon } from "@phosphor-icons/react";
 
-export function ShareButton() {
+export function ShareButton({ className, title, text, url }) {
     const handleShare = async () => {
-        const shareData = {
-            title: "Inbrazza Burger",
-            text: "Experimente o melhor hambúger da cidade, feito na brasa!",
-            url: "https://inbrazza-burger.vercel.app/",
-        };
+        const shareData = { title, text, url };
+
 
         try {
             if (navigator.share) {
@@ -22,7 +19,7 @@ export function ShareButton() {
     return (
         <button
             onClick={handleShare}
-            className="bg-red-200 p-1 rounded-3xl cursor-pointer"
+            className={`bg-red-200 p-1 rounded-3xl cursor-pointer ${className}`}
         >
             <ShareNetworkIcon
                 size={18}
