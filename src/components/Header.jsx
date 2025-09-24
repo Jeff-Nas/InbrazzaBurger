@@ -42,15 +42,19 @@ export function Header() {
                         <div className="flex gap-2.5 mr-2.5">
                             <button
                                 aria-label="Pesquisar"
-                                className="bg-red-200 p-1 rounded-3xl cursor-pointer"
+                                className="bg-red-200 p-1.5 rounded-3xl cursor-pointer text-red-600"
                             >
-                                <MagnifyingGlassIcon size={18} color="#D5170D" weight="bold" />
+                                <MagnifyingGlassIcon size={18} weight="bold" />
                             </button>
-                            <ShareButton
-                                title="Inbrazza Burger"
-                                text="Experimente o melhor hambúrguer da cidade, feito na brasa!"
-                                url="https://inbrazza-burger.vercel.app/"
-                            />
+
+                            <button className="bg-red-200 rounded-3xl cursor-pointer text-red-600">
+                                <ShareButton
+                                    title="Inbrazza Burger"
+                                    text="Experimente o melhor hambúrguer da cidade, feito na brasa!"
+                                    url="https://inbrazza-burger.vercel.app/"
+                                    size={18}
+                                />
+                            </button>
                         </div>
                     </div>
                     <div className="z-0">

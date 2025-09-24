@@ -1,6 +1,6 @@
 import { ShareNetworkIcon } from "@phosphor-icons/react";
 
-export function ShareButton({ className, title, text, url }) {
+export function ShareButton({ className, title, text, url, size }) {
     const handleShare = async () => {
         const shareData = { title, text, url };
 
@@ -19,12 +19,12 @@ export function ShareButton({ className, title, text, url }) {
     return (
         <button
             onClick={handleShare}
-            className={`bg-red-200 p-1 rounded-3xl cursor-pointer ${className}`}
+            className={`p-1.5 rounded-3xl cursor-pointer ${className}`}
         >
             <ShareNetworkIcon
-                size={18}
-                color="#D5170D"
-                weight="bold" />
+                weight="bold"
+                size={size}
+            />
         </button>
     )
 }

@@ -22,7 +22,8 @@ export function Product() {
                     alt="Imagem do produto"
                 />
                 <ShareButton
-                    className="absolute top-2 right-2 md:top-3.5 md:right-3.5"
+                    className="absolute top-3 right-2 md:top-3.5 md:right-3.5 bg-gray-200/70 text-orange-700"
+                    size={22}
                     title={`${product.name} 🍔🔥`}
                     text={`Confira: ${product.name} - ${product?.description}`}
                     url={`https://inbrazza-burger.vercel.app/products/${product.id}`}
