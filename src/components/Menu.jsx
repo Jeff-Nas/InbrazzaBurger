@@ -50,7 +50,7 @@ export function Menu({ active, onChange }) {
                         <button
                             data-id={item.id}
                             onClick={() => handleClick(item.id)}
-                            className={`relative py-1 px-2 transition-colors duration-200 ${active === item.id ? "text-red-700" : "text-gray-800"
+                            className={`relative py-1 px-2 transition-colors duration-200 ${active === item.id ? "text-orange-600" : "text-gray-800"
                                 }`}
                         >
                             {item.label}
@@ -58,7 +58,7 @@ export function Menu({ active, onChange }) {
                     </li>
                 ))}
                 <motion.div
-                    className="absolute bottom-0 h-[2px] bg-red-700 rounded"
+                    className="absolute bottom-0 h-[2px] bg-orange-600 rounded"
                     animate={{ x: indicator.left, width: indicator.width }}
                     transition={{ type: "spring", stiffness: 400, damping: 30 }}
                 />
