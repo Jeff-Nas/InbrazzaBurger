@@ -15,16 +15,13 @@ export function SelectedProduct() {
         setQtdItem(prev => increase ? prev + 1 : Math.max(1, prev - 1))
     }
 
-
-
-
     if (!product) {
         return <p>Produto não encotrado</p>
     }
 
     return (
         <div>
-            <div className="relative font-display">
+            <div className="font-display">
                 <img
                     className="object-cover  w-full h-70 md:h-105"
                     src={product.image}
@@ -37,7 +34,7 @@ export function SelectedProduct() {
                     text={`Confira: ${product.name} - ${product?.description}`}
                     url={`https://inbrazza-burger.vercel.app/products/${product.id}`}
                 />
-                <div className=" w-full absolute top-65 md:top-100  rounded-t-2xl p-2 bg-white">
+                <div className=" w-full -mt-14 md:-mt-28 md:top-100 relative z-10 rounded-t-2xl p-2 bg-white">
                     <div className="p-2">
                         <TextBase
                             as="h2"

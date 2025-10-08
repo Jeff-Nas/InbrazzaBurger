@@ -4,6 +4,7 @@ import { Menu } from "../components/Menu";
 import { Products } from "../components/Products";
 import useIsMobile from "../hooks/useIsMobile";
 import { Highlights } from "../components/Highlights";
+import { AditionalItems } from "../components/AdditionalItems";
 
 
 
@@ -19,7 +20,6 @@ export default function Home() {
             <main className="px-2 font-display md:h-auto md:w-3/4 lg:w-2/3 mx-auto">
                 <Products onSectionChange={setActiveSection} />
                 <Highlights />
-
             </main>
         </div>
     )

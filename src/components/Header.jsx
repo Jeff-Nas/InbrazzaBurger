@@ -47,14 +47,14 @@ export function Header() {
                                 <MagnifyingGlassIcon size={18} weight="bold" />
                             </button>
 
-                            <button className="bg-red-200 rounded-3xl cursor-pointer text-red-600">
+                            <div className="bg-red-200 rounded-3xl cursor-pointer text-red-600">
                                 <ShareButton
                                     title="Inbrazza Burger"
                                     text="Experimente o melhor hambúrguer da cidade, feito na brasa!"
                                     url="https://inbrazza-burger.vercel.app/"
                                     size={18}
                                 />
-                            </button>
+                            </div>
                         </div>
                     </div>
                     <div className="z-0">
