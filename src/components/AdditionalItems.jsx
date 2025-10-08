@@ -34,28 +34,35 @@ export function AditionalItems() {
                 <TextBase variant="mini">Escolha até três itens</TextBase>
             </div>
             <div>
-                {molhos.map(p => (
-                    <div key={p.id}>
-                        <div className="flex items-center justify-between">
-                            <div className="flex gap-2">
-                                <img
-                                    className="w-12 h-12 rounded-sm"
-                                    src={p.image}
-                                    alt={p.name}
-                                />
-                                <div className="flex flex-col">
-                                    {p.name}
-                                    <TextBase variant="mini">Max 1</TextBase>
+                {molhos.map(p => {
+                    const isSelected = selected[p.id];
+                    const Icon = isSelected ? CheckCircleIcon : PlusCircleIcon;
+
+                    return (
+                        <div key={p.id}>
+                            <div className="flex items-center justify-between">
+                                <div className="flex gap-2">
+                                    <img
+                                        className="w-12 h-12 rounded-sm"
+                                        src={p.image}
+                                        alt={p.name}
+                                    />
+                                    <div className="flex flex-col">
+                                        {p.name}
+                                        <TextBase variant="mini">Max 1</TextBase>
+                                    </div>
                                 </div>
+                                <button onClick={() => toggleMolho(p.id)}>
+                                    <Icon
+                                        size={26}
+                                        weight={isSelected ? "fill" : "regular"}
+                                        className="text-orange-600"
+                                    />
+                                </button>
                             </div>
-                            {
-                                selected[p.id]
-                                    ? <button onClick={() => toggleMolho(p.id)}><CheckCircleIcon size={26} weight="fill" className="text-orange-600" /></button>
-                                    : <button onClick={() => toggleMolho(p.id)}><PlusCircleIcon size={26} className="text-orange-600" /></button>
-                            }
                         </div>
-                    </div>
-                ))}
+                    )
+                })}
             </div>
         </div>
     )
